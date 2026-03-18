@@ -1,0 +1,14 @@
+{
+  "name": "message-queue",
+  "type": "skill",
+  "category": "architecture",
+  "source": "self",
+  "repo": "",
+  "version": "1.0.0",
+  "author": "xdoli",
+  "description_zh": "消息队列设计：Kafka、RabbitMQ、消费者模式",
+  "triggers": ["消息队列", "Kafka", "MQ", "RabbitMQ", "消息中间件"],
+  "last_updated": "2026-03-18",
+  "pinned": false,
+  "customized": false
+}

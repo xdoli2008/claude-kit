@@ -1,0 +1,14 @@
+{
+  "name": "testing",
+  "type": "skill",
+  "category": "devops",
+  "source": "self",
+  "repo": "",
+  "version": "1.0.0",
+  "author": "xdoli",
+  "description_zh": "测试策略：单元测试、集成测试、TDD、覆盖率",
+  "triggers": ["测试", "TDD", "单元测试", "集成测试", "coverage"],
+  "last_updated": "2026-03-18",
+  "pinned": false,
+  "customized": false
+}

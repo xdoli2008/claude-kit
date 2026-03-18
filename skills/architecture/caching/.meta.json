@@ -1,0 +1,14 @@
+{
+  "name": "caching",
+  "type": "skill",
+  "category": "architecture",
+  "source": "self",
+  "repo": "",
+  "version": "1.0.0",
+  "author": "xdoli",
+  "description_zh": "缓存架构设计：Redis、多级缓存、缓存一致性",
+  "triggers": ["缓存", "Redis", "cache", "缓存一致性"],
+  "last_updated": "2026-03-18",
+  "pinned": false,
+  "customized": false
+}

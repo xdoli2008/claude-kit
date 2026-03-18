@@ -1,0 +1,14 @@
+{
+  "name": "rust",
+  "type": "skill",
+  "category": "development",
+  "source": "self",
+  "repo": "",
+  "version": "1.0.0",
+  "author": "xdoli",
+  "description_zh": "Rust 开发规范：所有权、生命周期、unsafe",
+  "triggers": ["Rust", "所有权", "borrow checker", "cargo"],
+  "last_updated": "2026-03-18",
+  "pinned": false,
+  "customized": false
+}

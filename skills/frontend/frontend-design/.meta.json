@@ -1,0 +1,14 @@
+{
+  "name": "frontend-design",
+  "type": "skill",
+  "category": "frontend",
+  "source": "self",
+  "repo": "",
+  "version": "1.0.0",
+  "author": "xdoli",
+  "description_zh": "前端设计系统：组件、设计 token、UI 风格（glassmorphism、neubrutalism 等）",
+  "triggers": ["前端设计", "UI", "组件库", "设计系统", "glassmorphism"],
+  "last_updated": "2026-03-18",
+  "pinned": false,
+  "customized": false
+}

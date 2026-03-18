@@ -1,0 +1,14 @@
+{
+  "name": "agent-dev",
+  "type": "skill",
+  "category": "ai",
+  "source": "self",
+  "repo": "",
+  "version": "1.0.0",
+  "author": "xdoli",
+  "description_zh": "AI Agent 开发，工具调用、记忆、规划",
+  "triggers": ["Agent", "agent开发", "工具调用", "LLM agent"],
+  "last_updated": "2026-03-18",
+  "pinned": false,
+  "customized": false
+}

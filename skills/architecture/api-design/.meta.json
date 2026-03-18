@@ -1,0 +1,14 @@
+{
+  "name": "api-design",
+  "type": "skill",
+  "category": "architecture",
+  "source": "self",
+  "repo": "",
+  "version": "1.0.0",
+  "author": "xdoli",
+  "description_zh": "API 设计规范：RESTful、GraphQL、gRPC",
+  "triggers": ["API设计", "RESTful", "GraphQL", "gRPC"],
+  "last_updated": "2026-03-18",
+  "pinned": false,
+  "customized": false
+}

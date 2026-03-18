@@ -1,0 +1,14 @@
+{
+  "name": "rag-system",
+  "type": "skill",
+  "category": "ai",
+  "source": "self",
+  "repo": "",
+  "version": "1.0.0",
+  "author": "xdoli",
+  "description_zh": "RAG 系统设计与优化：检索、重排、评估",
+  "triggers": ["RAG", "检索增强", "向量数据库", "embedding"],
+  "last_updated": "2026-03-18",
+  "pinned": false,
+  "customized": false
+}

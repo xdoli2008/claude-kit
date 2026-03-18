@@ -1,0 +1,14 @@
+{
+  "name": "code-audit",
+  "type": "skill",
+  "category": "security",
+  "source": "self",
+  "repo": "",
+  "version": "1.0.0",
+  "author": "xdoli",
+  "description_zh": "代码安全审计，OWASP Top10、逻辑漏洞、供应链风险",
+  "triggers": ["代码审计", "code audit", "安全审查", "OWASP"],
+  "last_updated": "2026-03-18",
+  "pinned": false,
+  "customized": false
+}

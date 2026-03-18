@@ -1,0 +1,15 @@
+{
+  "name": "claude-kit",
+  "version": "0.1.0",
+  "description": "个人 Claude Code / Codex 配置套件",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "sync": "node scripts/sync-registry.js",
+    "update": "node scripts/update.js"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0"
+  }
+}

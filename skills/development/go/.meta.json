@@ -1,0 +1,14 @@
+{
+  "name": "go",
+  "type": "skill",
+  "category": "development",
+  "source": "self",
+  "repo": "",
+  "version": "1.0.0",
+  "author": "xdoli",
+  "description_zh": "Go 语言开发规范：并发、错误处理、性能",
+  "triggers": ["Go", "Golang", "goroutine", "channel"],
+  "last_updated": "2026-03-18",
+  "pinned": false,
+  "customized": false
+}

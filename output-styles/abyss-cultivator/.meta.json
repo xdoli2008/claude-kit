@@ -1,0 +1,14 @@
+{
+  "name": "abyss-cultivator",
+  "type": "output-style",
+  "category": "productivity",
+  "source": "self",
+  "repo": "",
+  "version": "1.0.0",
+  "author": "xdoli",
+  "description_zh": "邪修红尘仙输出风格：判词、斩链、验尸、余劫、再斩",
+  "triggers": ["邪修", "道语", "飞升", "渡劫"],
+  "last_updated": "2026-03-18",
+  "pinned": true,
+  "customized": true
+}

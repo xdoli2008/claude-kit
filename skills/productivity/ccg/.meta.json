@@ -1,0 +1,14 @@
+{
+  "name": "ccg",
+  "type": "skill",
+  "category": "productivity",
+  "source": "self",
+  "repo": "",
+  "version": "1.0.0",
+  "author": "xdoli",
+  "description_zh": "CCG 质量门禁：gen-docs、verify-module、verify-security、verify-change、verify-quality、multi-agent 协同",
+  "triggers": ["ccg", "质量门禁", "verify", "gen-docs", "multi-agent"],
+  "last_updated": "2026-03-18",
+  "pinned": false,
+  "customized": true
+}

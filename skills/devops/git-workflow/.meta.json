@@ -1,0 +1,14 @@
+{
+  "name": "git-workflow",
+  "type": "skill",
+  "category": "devops",
+  "source": "self",
+  "repo": "",
+  "version": "1.0.0",
+  "author": "xdoli",
+  "description_zh": "Git 工作流规范：分支策略、Conventional Commits、PR 流程",
+  "triggers": ["git", "分支策略", "commit规范", "PR"],
+  "last_updated": "2026-03-18",
+  "pinned": false,
+  "customized": false
+}

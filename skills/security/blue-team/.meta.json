@@ -1,0 +1,14 @@
+{
+  "name": "blue-team",
+  "type": "skill",
+  "category": "security",
+  "source": "self",
+  "repo": "",
+  "version": "1.0.0",
+  "author": "xdoli",
+  "description_zh": "蓝队防御响应：感知→遏制→根因→清除→加固",
+  "triggers": ["蓝队", "告警", "IOC", "应急", "取证", "SIEM", "EDR"],
+  "last_updated": "2026-03-18",
+  "pinned": false,
+  "customized": false
+}

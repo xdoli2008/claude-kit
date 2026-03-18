@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>claude-kit</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>⚡ claude-kit</h1>
+    <p class="subtitle">个人 Claude Code / Codex 配置套件</p>
+  </header>
+
+  <div class="toolbar">
+    <input id="search" type="text" placeholder="搜索名称、触发词、描述…" autocomplete="off" />
+    <div class="filters">
+      <select id="filter-type">
+        <option value="">全部类型</option>
+        <option value="skill">skill</option>
+        <option value="command">command</option>
+        <option value="hook">hook</option>
+        <option value="rule">rule</option>
+        <option value="mcp">mcp</option>
+        <option value="experience">experience</option>
+        <option value="output-style">output-style</option>
+      </select>
+      <select id="filter-category">
+        <option value="">全部分类</option>
+        <option value="security">security</option>
+        <option value="frontend">frontend</option>
+        <option value="devops">devops</option>
+        <option value="ai">ai</option>
+        <option value="architecture">architecture</option>
+        <option value="development">development</option>
+        <option value="productivity">productivity</option>
+      </select>
+      <select id="filter-source">
+        <option value="">全部来源</option>
+        <option value="self">✏️ 自建</option>
+        <option value="github">🐙 GitHub</option>
+        <option value="marketplace">🔌 官方</option>
+        <option value="community">👥 社区</option>
+        <option value="zip">📦 zip</option>
+      </select>
+    </div>
+  </div>
+
+  <div id="stats" class="stats"></div>
+  <div id="grid" class="grid"></div>
+
+  <div id="empty" class="empty hidden">暂无匹配条目</div>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>

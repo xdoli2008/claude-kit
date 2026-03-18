@@ -1,0 +1,14 @@
+{
+  "name": "red-team",
+  "type": "skill",
+  "category": "security",
+  "source": "self",
+  "repo": "",
+  "version": "1.0.0",
+  "author": "xdoli",
+  "description_zh": "红队渗透测试完整执行链：侦察→破阵→纵深→收割→战报",
+  "triggers": ["渗透", "红队", "exploit", "C2", "横向", "提权", "bypass"],
+  "last_updated": "2026-03-18",
+  "pinned": false,
+  "customized": false
+}

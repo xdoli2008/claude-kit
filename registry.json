@@ -1,0 +1,539 @@
+{
+  "version": "1.0.0",
+  "generated_at": "2026-03-18T15:48:27.947Z",
+  "items": [
+    {
+      "name": "abyss-cultivator",
+      "type": "output-style",
+      "category": "productivity",
+      "source": "self",
+      "repo": "",
+      "version": "1.0.0",
+      "author": "xdoli",
+      "description_zh": "邪修红尘仙输出风格：判词、斩链、验尸、余劫、再斩",
+      "triggers": [
+        "邪修",
+        "道语",
+        "飞升",
+        "渡劫"
+      ],
+      "last_updated": "2026-03-18",
+      "pinned": true,
+      "customized": true,
+      "path": "output-styles/abyss-cultivator"
+    },
+    {
+      "name": "agent-dev",
+      "type": "skill",
+      "category": "ai",
+      "source": "self",
+      "repo": "",
+      "version": "1.0.0",
+      "author": "xdoli",
+      "description_zh": "AI Agent 开发，工具调用、记忆、规划",
+      "triggers": [
+        "Agent",
+        "agent开发",
+        "工具调用",
+        "LLM agent"
+      ],
+      "last_updated": "2026-03-18",
+      "pinned": false,
+      "customized": false,
+      "path": "skills/ai/agent-dev"
+    },
+    {
+      "name": "llm-security",
+      "type": "skill",
+      "category": "ai",
+      "source": "self",
+      "repo": "",
+      "version": "1.0.0",
+      "author": "xdoli",
+      "description_zh": "LLM 安全：越狱、注入、对抗攻击防御",
+      "triggers": [
+        "LLM安全",
+        "越狱",
+        "prompt injection",
+        "jailbreak"
+      ],
+      "last_updated": "2026-03-18",
+      "pinned": false,
+      "customized": false,
+      "path": "skills/ai/llm-security"
+    },
+    {
+      "name": "prompt-and-eval",
+      "type": "skill",
+      "category": "ai",
+      "source": "self",
+      "repo": "",
+      "version": "1.0.0",
+      "author": "xdoli",
+      "description_zh": "Prompt 工程与 LLM 评估体系",
+      "triggers": [
+        "Prompt",
+        "提示词",
+        "LLM评估",
+        "eval"
+      ],
+      "last_updated": "2026-03-18",
+      "pinned": false,
+      "customized": false,
+      "path": "skills/ai/prompt-and-eval"
+    },
+    {
+      "name": "rag-system",
+      "type": "skill",
+      "category": "ai",
+      "source": "self",
+      "repo": "",
+      "version": "1.0.0",
+      "author": "xdoli",
+      "description_zh": "RAG 系统设计与优化：检索、重排、评估",
+      "triggers": [
+        "RAG",
+        "检索增强",
+        "向量数据库",
+        "embedding"
+      ],
+      "last_updated": "2026-03-18",
+      "pinned": false,
+      "customized": false,
+      "path": "skills/ai/rag-system"
+    },
+    {
+      "name": "api-design",
+      "type": "skill",
+      "category": "architecture",
+      "source": "self",
+      "repo": "",
+      "version": "1.0.0",
+      "author": "xdoli",
+      "description_zh": "API 设计规范：RESTful、GraphQL、gRPC",
+      "triggers": [
+        "API设计",
+        "RESTful",
+        "GraphQL",
+        "gRPC"
+      ],
+      "last_updated": "2026-03-18",
+      "pinned": false,
+      "customized": false,
+      "path": "skills/architecture/api-design"
+    },
+    {
+      "name": "caching",
+      "type": "skill",
+      "category": "architecture",
+      "source": "self",
+      "repo": "",
+      "version": "1.0.0",
+      "author": "xdoli",
+      "description_zh": "缓存架构设计：Redis、多级缓存、缓存一致性",
+      "triggers": [
+        "缓存",
+        "Redis",
+        "cache",
+        "缓存一致性"
+      ],
+      "last_updated": "2026-03-18",
+      "pinned": false,
+      "customized": false,
+      "path": "skills/architecture/caching"
+    },
+    {
+      "name": "cloud-native",
+      "type": "skill",
+      "category": "architecture",
+      "source": "self",
+      "repo": "",
+      "version": "1.0.0",
+      "author": "xdoli",
+      "description_zh": "云原生架构：K8s、微服务、服务网格",
+      "triggers": [
+        "云原生",
+        "K8s",
+        "Kubernetes",
+        "微服务",
+        "service mesh"
+      ],
+      "last_updated": "2026-03-18",
+      "pinned": false,
+      "customized": false,
+      "path": "skills/architecture/cloud-native"
+    },
+    {
+      "name": "message-queue",
+      "type": "skill",
+      "category": "architecture",
+      "source": "self",
+      "repo": "",
+      "version": "1.0.0",
+      "author": "xdoli",
+      "description_zh": "消息队列设计：Kafka、RabbitMQ、消费者模式",
+      "triggers": [
+        "消息队列",
+        "Kafka",
+        "MQ",
+        "RabbitMQ",
+        "消息中间件"
+      ],
+      "last_updated": "2026-03-18",
+      "pinned": false,
+      "customized": false,
+      "path": "skills/architecture/message-queue"
+    },
+    {
+      "name": "go",
+      "type": "skill",
+      "category": "development",
+      "source": "self",
+      "repo": "",
+      "version": "1.0.0",
+      "author": "xdoli",
+      "description_zh": "Go 语言开发规范：并发、错误处理、性能",
+      "triggers": [
+        "Go",
+        "Golang",
+        "goroutine",
+        "channel"
+      ],
+      "last_updated": "2026-03-18",
+      "pinned": false,
+      "customized": false,
+      "path": "skills/development/go"
+    },
+    {
+      "name": "python",
+      "type": "skill",
+      "category": "development",
+      "source": "self",
+      "repo": "",
+      "version": "1.0.0",
+      "author": "xdoli",
+      "description_zh": "Python 开发规范与最佳实践",
+      "triggers": [
+        "python",
+        "Python开发",
+        "FastAPI",
+        "Django"
+      ],
+      "last_updated": "2026-03-18",
+      "pinned": false,
+      "customized": false,
+      "path": "skills/development/python"
+    },
+    {
+      "name": "rust",
+      "type": "skill",
+      "category": "development",
+      "source": "self",
+      "repo": "",
+      "version": "1.0.0",
+      "author": "xdoli",
+      "description_zh": "Rust 开发规范：所有权、生命周期、unsafe",
+      "triggers": [
+        "Rust",
+        "所有权",
+        "borrow checker",
+        "cargo"
+      ],
+      "last_updated": "2026-03-18",
+      "pinned": false,
+      "customized": false,
+      "path": "skills/development/rust"
+    },
+    {
+      "name": "typescript",
+      "type": "skill",
+      "category": "development",
+      "source": "self",
+      "repo": "",
+      "version": "1.0.0",
+      "author": "xdoli",
+      "description_zh": "TypeScript 开发规范与类型系统最佳实践",
+      "triggers": [
+        "TypeScript",
+        "TS",
+        "类型系统",
+        "Node.js"
+      ],
+      "last_updated": "2026-03-18",
+      "pinned": false,
+      "customized": false,
+      "path": "skills/development/typescript"
+    },
+    {
+      "name": "database",
+      "type": "skill",
+      "category": "devops",
+      "source": "self",
+      "repo": "",
+      "version": "1.0.0",
+      "author": "xdoli",
+      "description_zh": "数据库设计与优化：索引、事务、分库分表",
+      "triggers": [
+        "数据库",
+        "SQL",
+        "索引优化",
+        "分库分表",
+        "事务"
+      ],
+      "last_updated": "2026-03-18",
+      "pinned": false,
+      "customized": false,
+      "path": "skills/devops/database"
+    },
+    {
+      "name": "git-workflow",
+      "type": "skill",
+      "category": "devops",
+      "source": "self",
+      "repo": "",
+      "version": "1.0.0",
+      "author": "xdoli",
+      "description_zh": "Git 工作流规范：分支策略、Conventional Commits、PR 流程",
+      "triggers": [
+        "git",
+        "分支策略",
+        "commit规范",
+        "PR"
+      ],
+      "last_updated": "2026-03-18",
+      "pinned": false,
+      "customized": false,
+      "path": "skills/devops/git-workflow"
+    },
+    {
+      "name": "observability",
+      "type": "skill",
+      "category": "devops",
+      "source": "self",
+      "repo": "",
+      "version": "1.0.0",
+      "author": "xdoli",
+      "description_zh": "可观测性：日志、指标、链路追踪，OpenTelemetry",
+      "triggers": [
+        "可观测性",
+        "observability",
+        "OpenTelemetry",
+        "链路追踪",
+        "监控"
+      ],
+      "last_updated": "2026-03-18",
+      "pinned": false,
+      "customized": false,
+      "path": "skills/devops/observability"
+    },
+    {
+      "name": "testing",
+      "type": "skill",
+      "category": "devops",
+      "source": "self",
+      "repo": "",
+      "version": "1.0.0",
+      "author": "xdoli",
+      "description_zh": "测试策略：单元测试、集成测试、TDD、覆盖率",
+      "triggers": [
+        "测试",
+        "TDD",
+        "单元测试",
+        "集成测试",
+        "coverage"
+      ],
+      "last_updated": "2026-03-18",
+      "pinned": false,
+      "customized": false,
+      "path": "skills/devops/testing"
+    },
+    {
+      "name": "frontend-design",
+      "type": "skill",
+      "category": "frontend",
+      "source": "self",
+      "repo": "",
+      "version": "1.0.0",
+      "author": "xdoli",
+      "description_zh": "前端设计系统：组件、设计 token、UI 风格（glassmorphism、neubrutalism 等）",
+      "triggers": [
+        "前端设计",
+        "UI",
+        "组件库",
+        "设计系统",
+        "glassmorphism"
+      ],
+      "last_updated": "2026-03-18",
+      "pinned": false,
+      "customized": false,
+      "path": "skills/frontend/frontend-design"
+    },
+    {
+      "name": "ccg",
+      "type": "skill",
+      "category": "productivity",
+      "source": "self",
+      "repo": "",
+      "version": "1.0.0",
+      "author": "xdoli",
+      "description_zh": "CCG 质量门禁：gen-docs、verify-module、verify-security、verify-change、verify-quality、multi-agent 协同",
+      "triggers": [
+        "ccg",
+        "质量门禁",
+        "verify",
+        "gen-docs",
+        "multi-agent"
+      ],
+      "last_updated": "2026-03-18",
+      "pinned": false,
+      "customized": true,
+      "path": "skills/productivity/ccg"
+    },
+    {
+      "name": "multi-agent",
+      "type": "skill",
+      "category": "productivity",
+      "source": "self",
+      "repo": "",
+      "version": "1.0.0",
+      "author": "xdoli",
+      "description_zh": "多 Agent 协同编排：TeamCreate、文件所有权矩阵、并行任务分解",
+      "triggers": [
+        "多Agent",
+        "TeamCreate",
+        "并行",
+        "协同编排",
+        "swarm"
+      ],
+      "last_updated": "2026-03-18",
+      "pinned": false,
+      "customized": false,
+      "path": "skills/productivity/multi-agent"
+    },
+    {
+      "name": "blue-team",
+      "type": "skill",
+      "category": "security",
+      "source": "self",
+      "repo": "",
+      "version": "1.0.0",
+      "author": "xdoli",
+      "description_zh": "蓝队防御响应：感知→遏制→根因→清除→加固",
+      "triggers": [
+        "蓝队",
+        "告警",
+        "IOC",
+        "应急",
+        "取证",
+        "SIEM",
+        "EDR"
+      ],
+      "last_updated": "2026-03-18",
+      "pinned": false,
+      "customized": false,
+      "path": "skills/security/blue-team"
+    },
+    {
+      "name": "code-audit",
+      "type": "skill",
+      "category": "security",
+      "source": "self",
+      "repo": "",
+      "version": "1.0.0",
+      "author": "xdoli",
+      "description_zh": "代码安全审计，OWASP Top10、逻辑漏洞、供应链风险",
+      "triggers": [
+        "代码审计",
+        "code audit",
+        "安全审查",
+        "OWASP"
+      ],
+      "last_updated": "2026-03-18",
+      "pinned": false,
+      "customized": false,
+      "path": "skills/security/code-audit"
+    },
+    {
+      "name": "pentest",
+      "type": "skill",
+      "category": "security",
+      "source": "self",
+      "repo": "",
+      "version": "1.0.0",
+      "author": "xdoli",
+      "description_zh": "渗透测试方法论与工具链",
+      "triggers": [
+        "pentest",
+        "渗透测试",
+        "漏洞利用"
+      ],
+      "last_updated": "2026-03-18",
+      "pinned": false,
+      "customized": false,
+      "path": "skills/security/pentest"
+    },
+    {
+      "name": "red-team",
+      "type": "skill",
+      "category": "security",
+      "source": "self",
+      "repo": "",
+      "version": "1.0.0",
+      "author": "xdoli",
+      "description_zh": "红队渗透测试完整执行链：侦察→破阵→纵深→收割→战报",
+      "triggers": [
+        "渗透",
+        "红队",
+        "exploit",
+        "C2",
+        "横向",
+        "提权",
+        "bypass"
+      ],
+      "last_updated": "2026-03-18",
+      "pinned": false,
+      "customized": false,
+      "path": "skills/security/red-team"
+    },
+    {
+      "name": "threat-intel",
+      "type": "skill",
+      "category": "security",
+      "source": "self",
+      "repo": "",
+      "version": "1.0.0",
+      "author": "xdoli",
+      "description_zh": "威胁情报与 OSINT 收集分析",
+      "triggers": [
+        "威胁情报",
+        "OSINT",
+        "threat intel",
+        "天眼"
+      ],
+      "last_updated": "2026-03-18",
+      "pinned": false,
+      "customized": false,
+      "path": "skills/security/threat-intel"
+    },
+    {
+      "name": "vuln-research",
+      "type": "skill",
+      "category": "security",
+      "source": "self",
+      "repo": "",
+      "version": "1.0.0",
+      "author": "xdoli",
+      "description_zh": "漏洞研究与 PoC 开发",
+      "triggers": [
+        "漏洞研究",
+        "CVE",
+        "PoC",
+        "vuln research"
+      ],
+      "last_updated": "2026-03-18",
+      "pinned": false,
+      "customized": false,
+      "path": "skills/security/vuln-research"
+    }
+  ]
+}
