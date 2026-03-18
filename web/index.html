@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>claude-kit</title>
   <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 </head>
 <body>
   <header>
@@ -46,10 +47,37 @@
     </div>
   </div>
 
-  <div id="stats" class="stats"></div>
+  <div class="stats-bar">
+    <div id="stats" class="stats"></div>
+    <div class="stats-actions">
+      <span id="active-repo-filter" class="active-repo-filter" style="display:none">
+        <span class="repo-filter-name"></span>
+        <button class="repo-filter-clear" title="清除筛选">✕</button>
+      </span>
+      <button id="view-toggle" class="view-toggle-btn">🐙 仓库视图</button>
+    </div>
+  </div>
   <div id="grid" class="grid"></div>
-
   <div id="empty" class="empty hidden">暂无匹配条目</div>
+
+  <!-- 详情弹窗 -->
+  <div id="modal-overlay" class="modal-overlay hidden">
+    <div class="modal">
+      <div class="modal-header">
+        <div class="modal-title-row">
+          <span id="modal-name" class="modal-name"></span>
+          <div class="modal-actions">
+            <button id="modal-copy-btn" class="copy-btn">复制指令</button>
+            <a id="modal-github-link" href="#" target="_blank" class="github-link">在 GitHub 查看 ↗</a>
+            <button id="modal-close" class="modal-close">✕</button>
+          </div>
+        </div>
+      </div>
+      <div id="modal-body" class="modal-body">
+        <div id="modal-spinner" class="spinner"></div>
+      </div>
+    </div>
+  </div>
 
   <script type="module" src="app.js"></script>
 </body>

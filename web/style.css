@@ -181,7 +181,13 @@ select:focus { border-color: var(--accent); }
   padding: 1px 6px;
 }
 
-.copy-btn {
+.card-btns {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+
+.copy-btn, .detail-btn {
   background: transparent;
   border: 1px solid var(--border);
   border-radius: 6px;
@@ -203,6 +209,11 @@ select:focus { border-color: var(--accent); }
   color: var(--green);
 }
 
+.detail-btn:hover {
+  border-color: var(--purple);
+  color: var(--purple);
+}
+
 .empty {
   text-align: center;
   color: var(--muted);
@@ -210,4 +221,335 @@ select:focus { border-color: var(--accent); }
   font-size: 15px;
 }
 
-.hidden { display: none; }
+.hidden { display: none !important; }
+
+/* Modal */
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+  padding: 24px;
+}
+
+.modal {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  width: 100%;
+  max-width: 800px;
+  max-height: 85vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.modal-header {
+  padding: 16px 20px;
+  border-bottom: 1px solid var(--border);
+  flex-shrink: 0;
+}
+
+.modal-title-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.modal-name {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--text);
+}
+
+.modal-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.modal-close {
+  background: transparent;
+  border: none;
+  color: var(--muted);
+  cursor: pointer;
+  font-size: 16px;
+  padding: 2px 6px;
+  border-radius: 4px;
+  transition: color 0.15s;
+}
+
+.modal-close:hover { color: var(--text); }
+
+.github-link {
+  font-size: 11px;
+  color: var(--accent);
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.github-link:hover { text-decoration: underline; }
+
+.modal-body {
+  padding: 20px;
+  overflow-y: auto;
+  flex: 1;
+}
+
+.spinner {
+  width: 32px;
+  height: 32px;
+  border: 3px solid var(--border);
+  border-top-color: var(--accent);
+  border-radius: 50%;
+  animation: spin 0.7s linear infinite;
+  margin: 40px auto;
+}
+
+@keyframes spin { to { transform: rotate(360deg); } }
+
+.modal-error {
+  color: var(--muted);
+  text-align: center;
+  padding: 40px 0;
+}
+
+.modal-error a { margin-top: 12px; display: inline-block; }
+
+/* Markdown body */
+.markdown-body {
+  color: var(--text);
+  line-height: 1.7;
+  font-size: 14px;
+}
+
+.markdown-body h1, .markdown-body h2, .markdown-body h3 {
+  color: var(--accent);
+  margin: 1.2em 0 0.5em;
+  font-weight: 600;
+}
+
+.markdown-body h1 { font-size: 1.4em; }
+.markdown-body h2 { font-size: 1.2em; }
+.markdown-body h3 { font-size: 1.05em; }
+
+.markdown-body p { margin: 0.6em 0; }
+
+.markdown-body code {
+  background: #21262d;
+  border-radius: 4px;
+  padding: 1px 5px;
+  font-size: 12px;
+  color: #ff7b72;
+}
+
+.markdown-body pre {
+  background: #21262d;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 12px 16px;
+  overflow-x: auto;
+  margin: 0.8em 0;
+}
+
+.markdown-body pre code {
+  background: none;
+  padding: 0;
+  color: var(--text);
+  font-size: 13px;
+}
+
+.markdown-body ul, .markdown-body ol {
+  padding-left: 1.5em;
+  margin: 0.5em 0;
+}
+
+.markdown-body li { margin: 0.2em 0; }
+
+.markdown-body table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 0.8em 0;
+  font-size: 13px;
+}
+
+.markdown-body th, .markdown-body td {
+  border: 1px solid var(--border);
+  padding: 6px 10px;
+  text-align: left;
+}
+
+.markdown-body th {
+  background: #21262d;
+  color: var(--accent);
+}
+
+.markdown-body blockquote {
+  border-left: 3px solid var(--accent);
+  margin: 0.8em 0;
+  padding: 4px 12px;
+  color: var(--muted);
+}
+
+.markdown-body a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.markdown-body a:hover { text-decoration: underline; }
+
+.markdown-body hr {
+  border: none;
+  border-top: 1px solid var(--border);
+  margin: 1em 0;
+}
+
+/* Stats bar */
+.stats-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 16px;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.stats-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.view-toggle-btn {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  color: var(--muted);
+  cursor: pointer;
+  font-size: 12px;
+  padding: 4px 10px;
+  transition: all 0.15s;
+  white-space: nowrap;
+}
+
+.view-toggle-btn:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+/* Active repo filter badge */
+.active-repo-filter {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  border: 1px solid;
+  border-radius: 12px;
+  font-size: 11px;
+  padding: 2px 8px;
+}
+
+.repo-filter-clear {
+  background: none;
+  border: none;
+  color: inherit;
+  cursor: pointer;
+  font-size: 10px;
+  padding: 0;
+  opacity: 0.7;
+  line-height: 1;
+}
+
+.repo-filter-clear:hover { opacity: 1; }
+
+/* Repo tag on card */
+.repo-tag-row {
+  margin-bottom: 10px;
+}
+
+.repo-tag {
+  border: 1px solid;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 11px;
+  padding: 2px 8px;
+  transition: opacity 0.15s;
+  white-space: nowrap;
+}
+
+.repo-tag:hover { opacity: 0.8; }
+
+/* Repo view */
+.repo-view {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.repo-group {
+  border: 1px solid;
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+
+.repo-group-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 16px;
+  border-bottom: 1px solid;
+}
+
+.repo-group-icon { font-size: 14px; }
+
+.repo-group-name {
+  font-weight: 600;
+  font-size: 14px;
+  flex: 1;
+}
+
+.repo-group-count {
+  font-size: 12px;
+  opacity: 0.8;
+}
+
+.repo-group-link {
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.repo-group-link:hover { text-decoration: underline; }
+
+.repo-group-toggle {
+  background: none;
+  border: none;
+  color: inherit;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 0 4px;
+  opacity: 0.7;
+}
+
+.repo-group-toggle:hover { opacity: 1; }
+
+.repo-group-body {
+  padding: 12px;
+}
+
+.repo-group-body.collapsed {
+  display: none;
+}
+
+.repo-inner-grid {
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 12px;
+}
+
+.grid.repo-view-active {
+  display: block;
+}
